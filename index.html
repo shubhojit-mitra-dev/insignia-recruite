@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Insignia Recruite</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body class="overflow-x-hidden">
+  <div class="absolute inset-0">
+    <svg class="absolute scale-[200%] -top-[1500px] left-[200px] -right-[1900px]  lg:scale-100 lg:left-0 lg:-top-[1940px] lg:-right-[1900px] z-5" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#E7EEE7" d="M34,-31C48.6,-19.4,68,-9.7,69,1C70,11.7,52.6,23.5,38.1,32.3C23.5,41.1,11.7,47.1,-4.3,51.4C-20.4,55.7,-40.8,58.5,-47.1,49.6C-53.4,40.8,-45.7,20.4,-39.5,6.1C-33.4,-8.1,-28.9,-16.3,-22.6,-27.8C-16.3,-39.4,-8.1,-54.4,0.8,-55.2C9.7,-56,19.4,-42.6,34,-31Z" transform="translate(100 100)" />
+    </svg>
+  </div>
+  <!-- Header Section -->
+  <header class="bg-transparent poppins-regular">
+    <div class="container relative mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-3xl poppins-bold text-green-600">Logo</h1>
+      <button id="hamburger" class="block lg:hidden absolute right-5 text-gray-700 focus:outline-none">
+        <img src="assets/menu.svg" alt="menu" height="20" width="20">
+      </button>
+      <nav id="menu" class="hidden lg:block">
+        <ul class="flex flex-col lg:flex-row lg:space-x-10">
+          <li><a href="#" class="text-gray-700 hover:text-green-600">Home</a></li>
+          <li><a href="#" class="text-gray-700 hover:text-green-600">About</a></li>
+          <li><a href="#" class="text-gray-700 hover:text-green-600">Our Team</a></li>
+          <li><a href="#" class="text-gray-700 hover:text-green-600">Job Openings</a></li>
+          <li><a href="#" class="text-gray-700 hover:text-green-600">Services</a></li>
+          <li><a href="#" class="text-gray-700 hover:text-green-600">Reviews</a></li>
+        </ul>
+      </nav>
+      <div class="hidden md:flex z-2 mr-[40px] gap-3">
+        <div class="social-icon-blob">
+          <a href="https://facebook.com/">
+            <img src="assets/facebook.svg" alt="facebook" height="20" width="20">
+          </a>
+        </div>
+        <div class="social-icon-blob">
+          <a href="https://linkedin.com/">
+            <img src="assets/linkedin.svg" alt="linkedin" height="20" width="20">
+          </a>
+        </div>
+        <div class="social-icon-blob">
+          <a href="https://instagram.com/">
+            <img src="assets/instagram.svg" alt="instagram" height="20" width="20">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative py-16">
+    
+    <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+      <div class="md:w-1/2 lg:p-10 lg:pr-24">
+        <h2 class="text-5xl lg:text-7xl md:text-start poppins-light text-[#331B3B] mb-16">
+          <span class="poppins-extrabold">We Help you</span><br>
+          <span>to grow your</span><br>
+          <span class="linebelow">Business</span>
+        </h2>
+        <p class="text-gray-600 mb-6">
+          Our job portal will help you in your search for a great career. Our Industry expert&apos;s would assist you in all walk&apos;s of your career.
+        </p>
+        <a href="#" class="bg-[#331B3B] text-white px-6 py-3 rounded-md transition-all duration-[300s] hover:scale-110">Get Started</a>
+      </div>
+      <div class="flex justify-center items-center md:w-1/2 mt-8 md:mt-0">
+        <!-- Container with relative positioning to hold all the stacked elements -->
+        <div class="relative flex justify-center items-center w-[500px] h-[500px] mx-auto">
+          <!-- Layer 1: Dotted blob (bottom) -->
+          <div class="absolute top-[30px]">
+            <div class="dotted-blob w-[300px] h-[300px] lg:w-[400px] lg:h-[400px]"></div>
+          </div>
+          
+          <!-- Layer 2: Green blob (middle) -->
+          <div class="absolute left-[30px] md:-top-[20px] md:left-0 h-64 w-64 inset-0 z-10">
+            <svg class="h-[400px] lg:h-[530px]" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <path fill="#6EA847" d="M51.3,-72.6C65.2,-60.6,74.3,-43.8,74,-28C73.7,-12.2,64.1,2.8,55.4,14.4C46.7,26.1,38.9,34.5,29.8,47.5C20.8,60.6,10.4,78.2,-2.3,81.4C-15,84.6,-30,73.3,-39.8,60.5C-49.6,47.7,-54.3,33.4,-56.8,19.8C-59.3,6.2,-59.8,-6.7,-56.1,-18.3C-52.4,-29.8,-44.5,-40.1,-34.4,-53.4C-24.4,-66.7,-12.2,-83,3.3,-87.5C18.7,-92,37.4,-84.7,51.3,-72.6Z" transform="translate(100 100)" />
+            </svg>
+          </div>
+          
+          <!-- Layer 3: Pink blob (top) -->
+          <div class="absolute lg:w-[550px] lg:h-[550px] z-20">
+            <div class="blob-mask-image w-full h-full lg:w-full"></div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="bg-white py-16 mr-24 my-20 relative h-screen">
+    <!-- Curved border on right side -->
+    <div class="absolute left-0 top-0 w-full h-full bg-blue-50 rounded-tr-full"></div>
+    
+    <!-- Dotted curved line decoration -->
+    <div class="absolute right-0 bottom-0">
+      <div class="">
+        <div class="dotted-blob w-[300px] h-[300px] lg:w-[400px] lg:h-[400px]"></div>
+      </div>
+    </div>
+
+    <div class="container mx-auto px-4 relative z-10">
+      <!-- Heading and subheading -->
+      <div class="mb-16 text-center">
+        <h3 class="text-4xl font-bold text-gray-800 mb-2">What We Do</h3>
+        <div class="flex items-center justify-center">
+          <p class="text-xl text-gray-600">For Your Business</p>
+          <span class="inline-block w-24 h-1 bg-green-500 ml-2"></span>
+        </div>
+      </div>
+      
+      <!-- Services cards grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
+        <!-- Website Design Card -->
+        <div class="bg-white rounded-md p-6">
+          <div class="bg-[#FFEEE3] rounded-full w-12 h-12 flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FF7B44]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+            </svg>
+          </div>
+          <h4 class="text-lg font-semibold text-gray-800 mb-2">WEBSITE DESIGN</h4>
+          <p class="text-gray-600 text-sm">Lorem ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div>
+        
+        <!-- Web Development Card -->
+        <div class="bg-white rounded-md p-6">
+          <div class="bg-[#EBF9F1] rounded-full w-12 h-12 flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#37B85D]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+            </svg>
+          </div>
+          <h4 class="text-lg font-semibold text-gray-800 mb-2">WEB DEVELOPMENT</h4>
+          <p class="text-gray-600 text-sm">Lorem ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div>
+        
+        <!-- Mobile App Development Card -->
+        <div class="bg-white rounded-md p-6">
+          <div class="bg-[#EBF1FF] rounded-full w-12 h-12 flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#377DFF]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h4 class="text-lg font-semibold text-gray-800 mb-2">MOBILE APP DEVELOPMENT</h4>
+          <p class="text-gray-600 text-sm">Lorem ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div>
+        
+        <!-- Marketing Card -->
+        <div class="bg-white rounded-md p-6">
+          <div class="bg-[#FFEBF1] rounded-full w-12 h-12 flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FF3378]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
+          <h4 class="text-lg font-semibold text-gray-800 mb-2">MARKETING</h4>
+          <p class="text-gray-600 text-sm">Lorem ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div>
+      </div>
+      
+      <!-- Navigation arrows -->
+      <div class="flex items-center justify-center space-x-4">
+        <button class="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center bg-white hover:bg-gray-100">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+        <button class="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center bg-white hover:bg-gray-100">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About us Section -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+      <div class="flex justify-center items-center md:w-1/2 mt-8 md:mt-0">
+        <!-- Container with relative positioning to hold all the stacked elements -->
+        <div class="relative flex justify-center items-center w-[500px] h-[500px] mx-auto">
+          <!-- Layer 1: Dotted blob (bottom) with static rotation -->
+          <div class="absolute top-[30px]">
+            <div class="dotted-blob w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] rotate-15"></div>
+          </div>
+          
+          <!-- Layer 2: Green blob (middle) with static rotation -->
+          <div class="absolute left-[30px] md:-top-[20px] md:-left-5 h-64 w-64 inset-0 z-10">
+            <svg class="h-[400px] lg:h-[550px] rotate-50" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <path fill="#6EA847" d="M51.3,-72.6C65.2,-60.6,74.3,-43.8,74,-28C73.7,-12.2,64.1,2.8,55.4,14.4C46.7,26.1,38.9,34.5,29.8,47.5C20.8,60.6,10.4,78.2,-2.3,81.4C-15,84.6,-30,73.3,-39.8,60.5C-49.6,47.7,-54.3,33.4,-56.8,19.8C-59.3,6.2,-59.8,-6.7,-56.1,-18.3C-52.4,-29.8,-44.5,-40.1,-34.4,-53.4C-24.4,-66.7,-12.2,-83,3.3,-87.5C18.7,-92,37.4,-84.7,51.3,-72.6Z" transform="translate(100 100)" />
+            </svg>
+          </div>
+          
+          <!-- Layer 3: Pink blob (top) with masked about-us image -->
+          <div class="absolute lg:w-[550px] lg:h-[550px] z-20">
+            <div class="about-mask-image w-full h-full"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="md:w-1/2 lg:p-10 lg:pr-24">
+        <h2 class="text-3xl lg:text-4xl md:text-start poppins-light text-[#331B3B] mb-8">
+          <span class="poppins-extrabold">About Us</span><br>
+          <span>Fake or </span>
+          <span class="linebelow">Real</span>
+        </h2>
+        <p class="text-gray-600 mb-6">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis enim dolorum repellat ducimus nobis unde mollitia, vitae voluptatem perferendis recusandae quo quia eveniet aperiam minus facere cum.
+        </p>
+        <p class="text-gray-600 mb-6">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis enim dolorum repellat ducimus nobis unde mollitia, vitae voluptatem perferendis recusandae quo quia eveniet aperiam minus facere cum.
+        </p>
+        <button class="bg-[#331B3B] mt-5 text-white px-8 py-3 rounded-md transition-all duration-300 hover:scale-110">
+          <a href="#" class="">EXPLORE MORE</a>
+        </button>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Recent Work Section -->
+  <section class="py-16 pb-32 my-32 bg-[#FFF5F5] rounded-tl-full ml-24 relative">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Left side: Headings and underline -->
+        <div>
+          <h2 class="text-4xl font-bold text-[#331B3B] mb-2">Our Recent Work</h2>
+          <div class="flex items-center mb-4">
+            <p class="text-xl text-gray-700">By Our Experts</p>
+            <div class="ml-2 w-24 h-2 bg-green-500"></div>
+          </div>
+        </div>
+        
+        <!-- Right side: Description text -->
+        <div>
+          <p class="text-gray-700">
+            Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          </p>
+        </div>
+      </div>
+      
+      <!-- Portfolio Projects -->
+      <div class="mt-12 ml-48 relative">
+        <!-- Navigation arrows -->
+        <div class="absolute -bottom-16 -left-32 flex space-x-2">
+          <button class="w-10 h-10 rounded-full border border-black flex items-center justify-center bg-[#FFF5F5] hover:bg-gray-100">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+          <button class="w-10 h-10 rounded-full border border-black flex items-center justify-center bg-[#FFF5F5] hover:bg-gray-100">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+        
+        <!-- Project Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- Project Card 1: UI Soup -->
+          <div class="bg-white rounded-md overflow-hidden shadow-sm">
+            <div class="p-5">
+              <img src="https://placehold.co/600x400/png?text=UI+Soup+Project" alt="UI Soup Project" class="w-full h-48 object-cover mb-4">
+              <div class="flex justify-between items-center">
+                <h4 class="text-xl font-semibold text-gray-800">UI Soup</h4>
+                <a href="#" class="text-gray-600 border border-gray-300 rounded px-3 py-1 text-sm hover:bg-gray-50">View Work</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project Card 2: Goldcrown -->
+          <div class="bg-white rounded-md overflow-hidden shadow-sm">
+            <div class="p-5">
+              <img src="https://placehold.co/600x400/png?text=Goldcrown+Project" alt="Goldcrown Project" class="w-full h-48 object-cover mb-4">
+              <div class="flex justify-between items-center">
+                <h4 class="text-xl font-semibold text-gray-800">Goldcrown</h4>
+                <a href="#" class="text-gray-600 border border-gray-300 rounded px-3 py-1 text-sm hover:bg-gray-50">View Work</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project Card 3: Close -->
+          <div class="bg-white rounded-md overflow-hidden shadow-sm">
+            <div class="p-5">
+              <img src="https://placehold.co/600x400/png?text=Close+Project" alt="Close Project" class="w-full h-48 object-cover mb-4">
+              <div class="flex justify-between items-center">
+                <h4 class="text-xl font-semibold text-gray-800">Close</h4>
+                <a href="#" class="text-gray-600 border border-gray-300 rounded px-3 py-1 text-sm hover:bg-gray-50">View Work</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="py-16 mb-16 bg-white">
+    <div class="container mx-auto px-4">
+      <!-- Heading with green underline -->
+       <div class="relative w-[500px] mx-auto mb-24">
+         <h3 class="text-5xl poppins-extralight text-center mb-16">Our Testimonials
+           <span class="absolute block w-24 h-2 bg-[#6ea847] right-0 mt-5"></span>
+         </h3>
+       </div>
+      
+      <!-- Testimonials grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <!-- Testimonial Card 1 -->
+        <div class="bg-white p-8 rounded shadow-sm border border-gray-100 poppins-regular">
+          <div class="text-xl text-green-500 mb-4">
+            <svg class="h-[50px] w-[50px]" fill="#6ea847" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 349.078 349.078" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M198.779,322.441v-58.245c0-7.903,6.406-14.304,14.304-14.304c28.183,0,43.515-28.904,45.643-85.961h-45.643 c-7.897,0-14.304-6.41-14.304-14.304V26.64c0-7.9,6.406-14.301,14.304-14.301h121.69c7.896,0,14.305,6.408,14.305,14.301v122.988 c0,27.349-2.761,52.446-8.181,74.611c-5.568,22.722-14.115,42.587-25.398,59.049c-11.604,16.917-26.132,30.192-43.155,39.437 c-17.152,9.304-37.09,14.026-59.267,14.026C205.186,336.745,198.779,330.338,198.779,322.441z M14.301,249.887 C6.404,249.887,0,256.293,0,264.185v58.257c0,7.896,6.404,14.298,14.301,14.298c22.166,0,42.114-4.723,59.255-14.026 c17.032-9.244,31.558-22.508,43.161-39.437c11.29-16.462,19.836-36.328,25.404-59.061c5.423-22.165,8.178-47.263,8.178-74.6V26.628 c0-7.9-6.41-14.301-14.304-14.301H14.301C6.404,12.327,0,18.734,0,26.628v122.988c0,7.899,6.404,14.304,14.301,14.304h45.002 C57.201,220.982,42.09,249.887,14.301,249.887z"></path> </g> </g></svg>
+          </div>
+          <p class="text-gray-700 mb-6">
+            Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+          </p>
+          <p class="poppins-bold text-xl">— UI Soup</p>
+        </div>
+        
+        <!-- Testimonial Card 2 -->
+        <div class="bg-white p-8 rounded shadow-sm border border-gray-100 poppins-regular">
+          <div class="text-xl text-green-500 mb-4">
+            <svg class="h-[50px] w-[50px]" fill="#6ea847" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 349.078 349.078" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M198.779,322.441v-58.245c0-7.903,6.406-14.304,14.304-14.304c28.183,0,43.515-28.904,45.643-85.961h-45.643 c-7.897,0-14.304-6.41-14.304-14.304V26.64c0-7.9,6.406-14.301,14.304-14.301h121.69c7.896,0,14.305,6.408,14.305,14.301v122.988 c0,27.349-2.761,52.446-8.181,74.611c-5.568,22.722-14.115,42.587-25.398,59.049c-11.604,16.917-26.132,30.192-43.155,39.437 c-17.152,9.304-37.09,14.026-59.267,14.026C205.186,336.745,198.779,330.338,198.779,322.441z M14.301,249.887 C6.404,249.887,0,256.293,0,264.185v58.257c0,7.896,6.404,14.298,14.301,14.298c22.166,0,42.114-4.723,59.255-14.026 c17.032-9.244,31.558-22.508,43.161-39.437c11.29-16.462,19.836-36.328,25.404-59.061c5.423-22.165,8.178-47.263,8.178-74.6V26.628 c0-7.9-6.41-14.301-14.304-14.301H14.301C6.404,12.327,0,18.734,0,26.628v122.988c0,7.899,6.404,14.304,14.301,14.304h45.002 C57.201,220.982,42.09,249.887,14.301,249.887z"></path> </g> </g></svg>
+          </div>
+          <p class="text-gray-700 mb-6">
+            Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+          </p>
+          <p class="poppins-bold text-xl">— UI Soup</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-black rounded-tr-[200px] text-white py-8 mt-32">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div class="text-center md:text-left mb-4 md:mb-0 pr-24">
+          <h2 class="text-3xl poppins-regular">Insignia Recruite</h2>
+          <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta inventore deleniti culpa repellendus recusandae, molestiae, assumenda animi quisquam blanditiis corporis eligendi doloribus voluptatibus laboriosam nostrum ullam harum perspiciatis dolor, sit tempore debitis tenetur est nihil fugiat soluta.</p>
+          <form class="mt-5">
+            <label for="email" class="poppins-light text-xl">GET IN TOUCH</label>
+            <div class="mt-2">
+              <input type="email" placeholder="ENTER YOUR EMAIL" name="email" id="email" class="px-2 py-3 bg-black border-2 border-white">
+              <button type="submit" class="bg-white -ml-2 text-black px-10 py-3 border-2 border-white">SEND</button>
+            </div>
+          </form>
+        </div>
+        <div class="p-10">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3444.281471273948!2d78.03103861066582!3d30.314510674683508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929919ec8e10d%3A0x7922214933d3fef7!2sDehradun%20Train%20Station!5e0!3m2!1sen!2sin!4v1748281312529!5m2!1sen!2sin" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
